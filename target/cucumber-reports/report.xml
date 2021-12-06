@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.034256">
+    <testcase classname="acessar a pagina e realizar o preenchimento dos campos" name="realizar cadastro na tela de undefined Insurance" time="8.034256">
+        <system-out>
+            <![CDATA[Dado que o usuario esteja na tela de undefined Insurance....................passed
+Quando digitar os campos obrigatorios do formulario Enter Vehicle Data......passed
+E clicar em next............................................................passed
+E preencher os campos do formulario Enter Insurant Data.....................passed
+E preencher os campos do formulario Enter Product Data......................passed
+E preencher os campos do formulario Select Price Option.....................passed
+Entao sera apresentado a mensagem “Sending e-mail success!” na tela.........passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

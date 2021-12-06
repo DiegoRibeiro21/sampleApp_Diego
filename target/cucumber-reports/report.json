@@ -1,0 +1,127 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5170570900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario esteja na tela de undefined Insurance",
+            "match": {
+              "location": "cadastroSteps.queOUsuarioEstejaNaTelaDeUndefinedInsurance()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "realizar cadastro na tela de undefined Insurance",
+        "description": "",
+        "id": "acessar-a-pagina-e-realizar-o-preenchimento-dos-campos;realizar-cadastro-na-tela-de-undefined-insurance",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1387487000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "digitar os campos obrigatorios do formulario Enter Vehicle Data",
+            "match": {
+              "location": "cadastroSteps.digitarOsCamposObrigatoriosDoFormularioEnterVehicleData()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 72820200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar em next",
+            "match": {
+              "location": "cadastroSteps.clicarEmNext()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1028147900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencher os campos do formulario Enter Insurant Data",
+            "match": {
+              "location": "cadastroSteps.preencherOsCamposDoFormularioEnterInsurantData()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 375174100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher os campos do formulario Enter Product Data",
+            "match": {
+              "location": "cadastroSteps.preencherOsCamposDoFormularioEnterProductData()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 25000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencher os campos do formulario Select Price Option",
+            "match": {
+              "location": "cadastroSteps.preencherOsCamposDoFormularioSelectPriceOption()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "sera apresentado a mensagem “Sending e-mail success!” na tela",
+            "match": {
+              "location": "cadastroSteps.seraApresentadoAMensagemSendingEMailSuccessNaTela()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "acessar a pagina e realizar o preenchimento dos campos",
+    "description": "",
+    "id": "acessar-a-pagina-e-realizar-o-preenchimento-dos-campos",
+    "keyword": "Funcionalidade",
+    "uri": "cadastro.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@cadastro"
+      }
+    ]
+  }
+]
