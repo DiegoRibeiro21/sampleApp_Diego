@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.034256">
-    <testcase classname="acessar a pagina e realizar o preenchimento dos campos" name="realizar cadastro na tela de undefined Insurance" time="8.034256">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.943361">
+    <testcase classname="acessar a pagina e realizar o preenchimento dos campos" name="realizar cadastro na tela de undefined Insurance" time="18.943361">
         <system-out>
             <![CDATA[Dado que o usuario esteja na tela de undefined Insurance....................passed
 Quando digitar os campos obrigatorios do formulario Enter Vehicle Data......passed

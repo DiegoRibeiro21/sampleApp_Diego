@@ -34,7 +34,7 @@ formatter.match({
   "location": "cadastroSteps.queOUsuarioEstejaNaTelaDeUndefinedInsurance()"
 });
 formatter.result({
-  "duration": 5170570900,
+  "duration": 6442555100,
   "status": "passed"
 });
 formatter.scenario({
@@ -79,42 +79,42 @@ formatter.match({
   "location": "cadastroSteps.digitarOsCamposObrigatoriosDoFormularioEnterVehicleData()"
 });
 formatter.result({
-  "duration": 1387487000,
+  "duration": 1184638200,
   "status": "passed"
 });
 formatter.match({
   "location": "cadastroSteps.clicarEmNext()"
 });
 formatter.result({
-  "duration": 72820200,
+  "duration": 67646500,
   "status": "passed"
 });
 formatter.match({
   "location": "cadastroSteps.preencherOsCamposDoFormularioEnterInsurantData()"
 });
 formatter.result({
-  "duration": 1028147900,
+  "duration": 969045200,
   "status": "passed"
 });
 formatter.match({
   "location": "cadastroSteps.preencherOsCamposDoFormularioEnterProductData()"
 });
 formatter.result({
-  "duration": 375174100,
+  "duration": 368147500,
   "status": "passed"
 });
 formatter.match({
   "location": "cadastroSteps.preencherOsCamposDoFormularioSelectPriceOption()"
 });
 formatter.result({
-  "duration": 25000,
+  "duration": 494778000,
   "status": "passed"
 });
 formatter.match({
   "location": "cadastroSteps.seraApresentadoAMensagemSendingEMailSuccessNaTela()"
 });
 formatter.result({
-  "duration": 30600,
+  "duration": 9416550300,
   "status": "passed"
 });
 });

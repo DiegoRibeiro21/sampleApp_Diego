@@ -3,21 +3,27 @@ package steps;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
-import page.EnterInsurantDataPage;
-import page.enterVehicleDataPage;
-import page.enterproductdataPage;
+import page.*;
+import support.Web;
+
+
+import java.util.concurrent.TimeUnit;
 
 public class cadastroSteps {
 
     private enterVehicleDataPage enterVehicleData;
     private EnterInsurantDataPage EnterInsurantData;
     private enterproductdataPage enterproductdata;
+    private selectPriceOptionPage princeOptionPage;
+    private sendQuotePage sendQuote;
 
 
     public cadastroSteps() {
         this.enterVehicleData = new enterVehicleDataPage();
         this.EnterInsurantData = new EnterInsurantDataPage();
         this.enterproductdata = new enterproductdataPage();
+        this.princeOptionPage = new selectPriceOptionPage();
+        this.sendQuote = new sendQuotePage();
 
 
     }
@@ -59,11 +65,11 @@ public class cadastroSteps {
     public void preencherOsCamposDoFormularioEnterInsurantData() throws Throwable {
         EnterInsurantData.setfirstname("Diego");
         EnterInsurantData.setlastname("Ribeiro");
-        EnterInsurantData.setdateofbirth2("18/03/1986");
+        EnterInsurantData.setdateofbirth2("01/01/1980");
         EnterInsurantData.setgender();
         EnterInsurantData.setstreetaddress("Rua Pompeu Ferreira da Ponte, 308");
         EnterInsurantData.setcountry();
-        EnterInsurantData.setzipcode("61910-120");
+        EnterInsurantData.setzipcode("61910120");
         EnterInsurantData.setcity("Fortaleza");
         EnterInsurantData.setoccupation();
         EnterInsurantData.sethobbies();
@@ -77,7 +83,7 @@ public class cadastroSteps {
     @Quando("^preencher os campos do formulario Enter Product Data$")
     public void preencherOsCamposDoFormularioEnterProductData() throws Throwable {
 
-        enterproductdata.setstartdate2("18/03/1986");
+        enterproductdata.setstartdate2("01/01/2026");
         enterproductdata.setinsurancesum();
         enterproductdata.setmeritrating();
         enterproductdata.setdamageinsurance();
@@ -90,10 +96,23 @@ public class cadastroSteps {
     @Quando("^preencher os campos do formulario Select Price Option$")
     public void preencherOsCamposDoFormularioSelectPriceOption() throws Throwable {
 
+        princeOptionPage.setUltimatebutton();
+        princeOptionPage.setnext3();
+
+
     }
 
     @Entao("^sera apresentado a mensagem “Sending e-mail success!” na tela$")
     public void seraApresentadoAMensagemSendingEMailSuccessNaTela() throws Throwable {
+
+        sendQuote.setemailquote("diegomays21@gmail.com");
+        sendQuote.setphonequote("85998545715");
+        sendQuote.setusernamequote("Diego.Ribeiro");
+        sendQuote.setpasswordquote("Xyz@123");
+        sendQuote.setconfirmpassword("Xyz@123");
+        sendQuote.setcommentsquote("Fico no aguardo de um retorno e desde já agradeço a atenção.");
+        sendQuote.setsendquote();
+        sendQuote.setconfirmacaodesucesso();
 
     }
 
